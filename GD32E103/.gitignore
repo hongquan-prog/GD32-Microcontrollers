@@ -55,4 +55,4 @@ dkms.conf
 .vscode/
 build/
 MDK-ARM/list/
-Project.uvgui.*
+Project.uvgui*

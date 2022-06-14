@@ -1,0 +1,18 @@
+#pragma once
+
+#define SYS_LED_PORT GPIOB
+#define SYS_LED_PIN GPIO_PIN_10
+
+/* 雷达余震控制端口，高电平有效 */
+#define RADAR_BAN_PORT GPIOB
+#define RADAR_BAN_PIN GPIO_PIN_7
+/* 雷达信号接收中断端口(灵敏度低) */
+#define RADAR_NORMAL_TRIGGER_PORT GPIOB
+#define RADAR_NORMAL_TRIGGER_PIN GPIO_PIN_6
+/* 雷达信号接收中断端口(灵敏度高) */
+#define RADAR_SENSITIVE_TRIGGER_PORT GPIOB
+#define RADAR_SENSITIVE_TRIGGER_PIN GPIO_PIN_5
+
+#define RADAR_PWM_PORT GPIOB
+#define RADAR_PWM_PIN GPIO_PIN_8
+#define RADAR_PWM_CHANNEL TIMER_CH_2
