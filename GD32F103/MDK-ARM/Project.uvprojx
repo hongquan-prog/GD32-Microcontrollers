@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>iplock</TargetName>
+      <TargetName>Project</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>6160000::V6.16::ARMCLANG</pCCUsed>
@@ -638,7 +638,7 @@
   <LayerInfo>
     <Layers>
       <Layer>
-        <LayName>iplock</LayName>
+        <LayName>Project</LayName>
         <LayPrjMark>1</LayPrjMark>
       </Layer>
     </Layers>
