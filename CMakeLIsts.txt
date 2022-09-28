@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(GD32)
+
+# set rule path
+set(COMPILE_RULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/compile.cmake)
+
+add_subdirectory(GD32F103)
+add_subdirectory(GD32E103)
+add_subdirectory(GD32F303)
+add_subdirectory(GD32F450)

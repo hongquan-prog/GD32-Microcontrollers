@@ -417,3 +417,4 @@ g_pfnVectors:
 
    .weak      DMA1_Channel3_4_IRQHandler 
    .thumb_set DMA1_Channel3_4_IRQHandler,Default_Handler 
+   
